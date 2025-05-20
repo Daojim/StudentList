@@ -15,7 +15,25 @@ package ca.sheridancollege.week1.softwarefundamentals;
 public class Student 
 {
     private String name;
+    private String studentId;
+    private String address;
 
+    public void setStudentId(String studentId) {
+        this.studentId = studentId;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public String getStudentId() {
+        return studentId;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+    
     /**
      * @return the name
      */
